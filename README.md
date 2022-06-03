@@ -15,3 +15,5 @@ Built using:
 
 *Developed and Designed by Barbara Evangelista*
 
+# LICENSE
+MIT
