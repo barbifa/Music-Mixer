@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	border: 0px;
+	/*background-image:url(../images/);*/
+	background-repeat:repeat;
+	background-color: #333;
+	color:#FFF;
+	font-family: 'Luckiest Guy', sans-serif;
+	font-size:16px;
+}
+
+
+#relax-drag {
+	width: 100%;
+	text-align: center;
+}
+
+
+.relax-image{
+    width: 20%;
+}
