@@ -7,28 +7,38 @@
 	<link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+	<img src="images/background.jpg" id="bg" alt="">
 	<header id="headLine">
-		<h1>Drag the Relaxing sounds into the player!</h1>
+		<h1>Drag the Relaxing sounds into the dashed box!</h1>
 	</header>
-
-	<section class ="radio-drop">
-
-	</section>
 	<section id="relax-drag">
+		
+
 		<!-- these are the draggable pieces -->
-		<div class="icons-drag">
-			<img src="images/bird.svg" class="relax-image" alt="" draggable="true">
-            <img src="images/coffeshop.svg" class="relax-image" alt="" draggable="true">
-            <img src="images/crickets.svg" class="relax-image" alt="" draggable="true">
-            <img src="images/fire.svg" class="relax-image" alt="" draggable="true">
-            <img src="images/rain.svg" class="relax-image" alt="" draggable="true">
-            <img src="images/singbowl.svg" class="relax-image" alt="" draggable="true">
-            <img src="images/thunder.svg" class="relax-image" alt="" draggable="true">
-            <img src="images/waves.svg" class="relax-image" alt="" draggable="true">
-            <img src="images/whitenoise.svg" class="relax-image" alt="" draggable="true">
-            <img src="images/wind.svg" class="relax-image" alt="" draggable="true">
+		<div class="puzzle-pieces">
+			<img src="images/bird.svg" draggable class="relax-image" id="bird" alt="">
+            <img src="images/coffeshop.svg" draggable class="relax-image" id="coffeshop" alt="">
+            <img src="images/crickets.svg" draggable class="relax-image" id="crickets" alt="">
+            <img src="images/fire.svg" draggable class="relax-image" id="fire" alt="">
+            <img src="images/rain.svg" draggable class="relax-image" id ="rain" alt="">
+            <img src="images/singbowl.svg" draggable class="relax-image" id ="singbowl" alt="">
+            <img src="images/thunder.svg" draggable class="relax-image" id ="thunder" alt="">
+            <img src="images/waves.svg" draggable class="relax-image" id ="waves" alt="">
+            <img src="images/whitenoise.svg" draggable class="relax-image" id="whitenoise" alt="">
+            <img src="images/wind.svg" draggable class="relax-image" id="wind" alt="">
 		
 		</div>
+
+		<!-- we want to drop the draggable pieces here -->
+		<div class="relax-drop"></div>
+
+
+		<audio id="bird" src="sounds/birds.wav"></audio>
+		<audio id="coffeshop"  src="sounds/coffeshop.wav"></audio>
+		<audio id="fire" src="sounds/fire.wav"></audio>
+		<audio id ="rain" src="sounds/rain.wav"></audio>
+		<audio id ="singbowl" src="sounds/singbowl.mp3"></audio>
+
 	</section>
 
 	<footer>
