@@ -3,21 +3,66 @@
 body {
 	margin: 0px;
 	border: 0px;
-	/*background-image:url(../images/);*/
-	background-repeat:repeat;
+	background-position-y: -200px;
 	background-color: #333;
 	color:#FFF;
 	font-family: 'Luckiest Guy', sans-serif;
 	font-size:16px;
+
 }
 
 
-#relax-drag {
-	width: 100%;
+h1{
 	text-align: center;
+	padding-top: 5%;
+}
+
+.puzzle-pieces{
+	position:absolute;
+	width: 90%;
+	bottom: 1%;
+
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto; 
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 
 .relax-image{
-    width: 20%;
+	width: 8%;
+	height: 10%;
+	margin-right: 5px;
+
+
+}
+
+
+.relax-drop{
+
+	position:absolute;
+	width: 50%;
+	height: 50%;
+	bottom: 30%;
+	border: 3px dashed rgb(126, 97, 97);
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto; 
+
+}
+
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 50%;
+  height: 50%;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
